@@ -1,0 +1,27 @@
+1.What is nested list?
+It refers to list in other list.
+2. Can a list store both integers and strings in it?
+Yes.
+3.Do exercise 1, 2 in this chapter
+
+E1.
+What is the Python interpreter’s response to the following?
+>>> list(range(10, 0, -2))
+The three arguments to the range function are start, stop, and step, respectively. In this
+example, start is greater than stop. What happens if start < stop and step <
+0? Write a rule for the relationships among start, stop, and step.
+
+=> it generates this list [10, 8, 6, 4, 2]
+If start < stop and step < 0, it generates a list containing intergers, with the first integer is start, and next intergers is sum of its previous interger and step while the the result is not bigger than stop.
+
+E2:
+Consider this fragment of code:
+1 import turtle
+2
+3 tess = turtle.Turtle()
+4 alex = tess
+5 alex.color("hotpink")
+Does this fragment create one or two turtle instances? Does setting the color of alex
+also change the color of tess? Explain in detail.
+
+=> 2 turtles. No.
